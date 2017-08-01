@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wallet.details.spent",
+    "defaultMessage": "{spent} has been spent today, out of {limit} set as the daily limit, which has been reset on {date}"
+  },
+  {
+    "id": "wallet.buttons.transfer",
+    "defaultMessage": "transfer"
+  },
+  {
+    "id": "wallet.buttons.forget",
+    "defaultMessage": "forget"
+  },
+  {
+    "id": "wallet.buttons.edit",
+    "defaultMessage": "edit"
+  },
+  {
+    "id": "wallet.buttons.settings",
+    "defaultMessage": "settings"
+  },
+  {
+    "id": "wallet.title",
+    "defaultMessage": "Wallet Management"
+  }
+]

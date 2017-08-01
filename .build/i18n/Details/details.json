@@ -1,0 +1,14 @@
+[
+  {
+    "id": "wallet.details.title",
+    "defaultMessage": "Details"
+  },
+  {
+    "id": "wallet.details.requiredOwners",
+    "defaultMessage": "This wallet requires at least {owners} to validate any action (transactions, modifications)."
+  },
+  {
+    "id": "wallet.details.requiredOwnersNumber",
+    "defaultMessage": "{number} {numberValue, plural, one {owner} other {owners}}"
+  }
+]

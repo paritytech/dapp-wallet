@@ -1,0 +1,10 @@
+[
+  {
+    "id": "wallet.transactions.title",
+    "defaultMessage": "Transactions"
+  },
+  {
+    "id": "wallet.transactions.none",
+    "defaultMessage": "No transactions has been sent."
+  }
+]

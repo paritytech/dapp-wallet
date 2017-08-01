@@ -1,0 +1,94 @@
+[
+  {
+    "id": "walletSettings.edit.message",
+    "defaultMessage": "In order to edit this contract's settings, at\n                  least {owners, number} {owners, plural, one {owner } other {owners }} have to\n                  send the very same modifications. You can paste a stringified version\n                  of the modifications here."
+  },
+  {
+    "id": "walletSettings.modifications.fromString.label",
+    "defaultMessage": "modifications"
+  },
+  {
+    "id": "walletSettings.modifications.sender.label",
+    "defaultMessage": "from account (wallet owner)"
+  },
+  {
+    "id": "walletSettings.modifications.sender.hint",
+    "defaultMessage": "send modifications as this owner"
+  },
+  {
+    "id": "walletSettings.modifications.owners.label",
+    "defaultMessage": "other wallet owners"
+  },
+  {
+    "id": "walletSettings.modifications.required.label",
+    "defaultMessage": "required owners"
+  },
+  {
+    "id": "walletSettings.modifications.required.hint",
+    "defaultMessage": "number of required owners to accept a transaction"
+  },
+  {
+    "id": "walletSettings.modifications.daylimit.label",
+    "defaultMessage": "wallet day limit"
+  },
+  {
+    "id": "walletSettings.modifications.daylimit.hint",
+    "defaultMessage": "amount of ETH spendable without confirmations"
+  },
+  {
+    "id": "walletSettings.changes.none",
+    "defaultMessage": "No modifications have been made to the Wallet settings."
+  },
+  {
+    "id": "walletSettings.changes.modificationString",
+    "defaultMessage": "For your modifications to be taken into account,\n              other owners have to send the same modifications. They can paste\n              this string to make it easier:"
+  },
+  {
+    "id": "walletSettings.changes.overview",
+    "defaultMessage": "You are about to make the following modifications"
+  },
+  {
+    "id": "walletSettings.ownersChange.title",
+    "defaultMessage": "Change Required Owners"
+  },
+  {
+    "id": "walletSettings.ownersChange.details",
+    "defaultMessage": "from {from} to {to}"
+  },
+  {
+    "id": "walletSettings.changeOwner.title",
+    "defaultMessage": "Change Owner"
+  },
+  {
+    "id": "walletSettings.changeOwner.labelFrom",
+    "defaultMessage": "From"
+  },
+  {
+    "id": "walletSettings.changeOwner.labelTo",
+    "defaultMessage": "To"
+  },
+  {
+    "id": "walletSettings.addOwner.title",
+    "defaultMessage": "Add Owner"
+  },
+  {
+    "id": "walletSettings.removeOwner.title",
+    "defaultMessage": "Remove Owner"
+  },
+  {
+    "id": "walletSettings.buttons.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "walletSettings.buttons.close",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "walletSettings.buttons.next",
+    "defaultMessage": "Next"
+  },
+  {
+    "id": "walletSettings.buttons.send",
+    "defaultMessage": "Send"
+  }
+]
