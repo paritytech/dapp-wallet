@@ -27,9 +27,9 @@ import { nullableProptype } from '@parity/shared/util/proptypes';
 import { Actionbar, Button, Page, Loading } from '@parity/ui';
 import { DeleteIcon, EditIcon, SendIcon, SettingsIcon } from '@parity/ui/Icons';
 
+import DeleteAddress from '@parity/dapp-account/src/DeleteAddress';
 import EditMeta from '@parity/dapp-account/src/EditMeta';
 import Transfer from '@parity/dapp-account/src/Transfer';
-import Delete from '@parity/dapp-address/src/Delete';
 import Header from '@parity/dapp-account/src/Header';
 
 import WalletDetails from './Details';
@@ -278,7 +278,7 @@ class Wallet extends Component {
     const { showDeleteDialog } = this.state;
 
     return (
-      <Delete
+      <DeleteAddress
         account={ account }
         visible={ showDeleteDialog }
         route='/accounts'
