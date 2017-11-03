@@ -18,7 +18,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 
-import { bytesToHex } from '@parity/api/util/format';
+import { bytesToHex } from '@parity/api/lib/util/format';
 import { Container } from '@parity/ui';
 import TxRow from '@parity/ui/TxList/TxRow';
 import txListStyles from '@parity/ui/TxList/txList.css';

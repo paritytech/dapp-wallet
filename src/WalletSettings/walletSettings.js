@@ -21,7 +21,7 @@ import { connect } from 'react-redux';
 import { observer } from 'mobx-react';
 import { pick } from 'lodash';
 
-import { fromWei } from '@parity/api/util/wei';
+import { fromWei } from '@parity/api/lib/util/wei';
 import { AddressSelect, Button, Form, TypedInput, Input, InputAddress, Portal } from '@parity/ui';
 import { CancelIcon, NextIcon } from '@parity/ui/Icons';
 
