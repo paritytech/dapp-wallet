@@ -20,8 +20,8 @@ import { FormattedMessage } from 'react-intl';
 
 import { bytesToHex } from '@parity/api/lib/util/format';
 import { Container } from '@parity/ui';
-import TxRow from '@parity/ui/TxList/TxRow';
-import txListStyles from '@parity/ui/TxList/txList.css';
+import TxRow from '@parity/ui/lib/TxList/TxRow';
+import txListStyles from '@parity/ui/lib/TxList/txList.css';
 
 export default class WalletTransactions extends Component {
   static propTypes = {

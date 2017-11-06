@@ -23,7 +23,7 @@ import { pick } from 'lodash';
 
 import { fromWei } from '@parity/api/lib/util/wei';
 import { AddressSelect, Button, Form, TypedInput, Input, InputAddress, Portal } from '@parity/ui';
-import { CancelIcon, NextIcon } from '@parity/ui/Icons';
+import { CancelIcon, NextIcon } from '@parity/ui/lib/Icons';
 
 import WalletSettingsStore from './walletSettingsStore.js';
 import styles from './walletSettings.css';

@@ -21,11 +21,11 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import moment from 'moment';
 
-import HistoryStore from '@parity/shared/mobx/historyStore';
-import { setVisibleAccounts } from '@parity/shared/redux/providers/personalActions';
-import { nullableProptype } from '@parity/shared/util/proptypes';
+import HistoryStore from '@parity/shared/lib/mobx/historyStore';
+import { setVisibleAccounts } from '@parity/shared/lib/redux/providers/personalActions';
+import { nullableProptype } from '@parity/shared/lib/util/proptypes';
 import { Actionbar, Button, Page, Loading } from '@parity/ui';
-import { DeleteIcon, EditIcon, SendIcon, SettingsIcon } from '@parity/ui/Icons';
+import { DeleteIcon, EditIcon, SendIcon, SettingsIcon } from '@parity/ui/lib/Icons';
 
 import DeleteAddress from '@parity/dapp-account/src/DeleteAddress';
 import EditMeta from '@parity/dapp-account/src/EditMeta';

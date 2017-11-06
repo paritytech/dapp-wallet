@@ -22,12 +22,12 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import { bytesToHex } from '@parity/api/lib/util/format';
-import { confirmOperation, revokeOperation } from '@parity/shared/redux/providers/walletActions';
+import { confirmOperation, revokeOperation } from '@parity/shared/lib/redux/providers/walletActions';
 import { Container, Dropdown, InputAddress, IdentityIcon, Progress } from '@parity/ui';
-import TxRow from '@parity/ui/TxList/TxRow';
+import TxRow from '@parity/ui/lib/TxList/TxRow';
 
 import styles from '../wallet.css';
-import txListStyles from '@parity/ui/TxList/txList.css';
+import txListStyles from '@parity/ui/lib/TxList/txList.css';
 
 class WalletConfirmations extends Component {
   static contextTypes = {
